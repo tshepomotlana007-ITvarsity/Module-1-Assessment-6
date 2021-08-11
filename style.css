@@ -1,0 +1,174 @@
+.gallery img{
+		width: 100%;
+}
+
+#menu{
+    width:100%;
+    height:40px;
+    text-align: center;
+    background-color: black;
+    padding-top: 12px;
+}
+
+#menu a{
+      color:white;
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+      text-decoration:none;
+      font-weight: 800px;
+      
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+#menu a:hover{
+       color: gold;
+}
+
+h1{
+    text-align: center;
+    font-family: verdana;
+    color: crimson;
+}
+
+.card-price {
+	text-transform: capitalize;
+    font-family: Impact, fantasy;
+    text-align: right;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 120px;
+}
+
+.product-availability p {
+    font-family: Garamond, serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    color: grey;
+
+}
+
+.product-availability span {
+    font-size: 18px;
+    color: darkorange;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.title-right {
+    float: right;
+    position: relative;
+    right: 1100px;
+}
+
+.title-left {
+    display: inline;
+    
+}
+
+.product-description h3 {
+    font-family: Garamond, serif;
+    text-transform: uppercase;
+    padding-left: 150px;
+    font-weight: 800;
+    font-size: 20px;
+    float: right, center;
+    color: grey;
+    position: sticky;
+    
+}
+
+.product-description p {
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    color: grey;
+    width: 40%;
+    padding: 20px;
+    float: right, center;
+    position: sticky;
+
+}
+
+.product-info h3 {
+    font-family: Garamond, serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 850px;
+    float: left, center;
+    color: grey;
+    position: sticky;
+    
+
+}
+
+.product-info ul{
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    color: grey;
+    width: 40%;
+    padding: 50px;
+    float: left, center;
+    position:sticky;
+
+
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:3px solid grey;
+}
+
+.product-description table{
+    font-family: Garamond, serif;
+    text-transform: uppercase;
+    position:absolute;
+    width: 35%;
+}
+
+table{
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    border-collapse: collapse;
+	border-width   : 3px;
+    border-style   : solid;	
+	border-color   : darkgray;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-family: Garamond, serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+    padding-top: 55px;
+    
+}
+
+.cart-btn {
+    display: inline-block;
+    background-color: purple;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+}
+
+.cart-btn:hover {
+    background-color: black;
+}
